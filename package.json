@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinHu2014/react-native-star-wars.git"
+  },
   "author": "KevinHu2014",
   "license": "ISC",
   "keywords": [
