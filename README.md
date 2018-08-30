@@ -20,7 +20,7 @@ video demo
 
 ```jsx
 import React from 'react';
-import StarWars from 'react-native-starwars';
+import StarWars from 'react-native-star-wars';
 
 export default class App extends React.Component {
   render() {
