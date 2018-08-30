@@ -1,0 +1,22 @@
+{
+  "name": "react-native-star-wars",
+  "version": "1.0.0",
+  "description": "A Star Wars Crawl Text Opening made by react native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KevinHu2014",
+  "license": "ISC",
+  "keywords": [
+    "react-native",
+    "react-native-component",
+    "star-wars"
+  ],
+  "peerDependencies": {
+    "expo": "^27.0.1",
+    "react": "16.3.1",
+    "react-native": "~0.55.2",
+    "prop-types": "^15.5.10"
+  }
+}
