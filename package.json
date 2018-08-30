@@ -1,6 +1,6 @@
 {
   "name": "react-native-star-wars",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Star Wars Crawl Text Opening made by react native",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,12 @@
     "react": "16.3.1",
     "react-native": "~0.55.2",
     "prop-types": "^15.5.10"
+  },
+  "bugs": {
+    "url": "https://github.com/KevinHu2014/react-native-star-wars/issues"
+  },
+  "homepage": "https://github.com/KevinHu2014/react-native-star-wars#readme",
+  "directories": {
+    "doc": "docs"
   }
 }
