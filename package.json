@@ -1,6 +1,6 @@
 {
   "name": "react-native-star-wars",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Star Wars Crawl Text Opening made by react native",
   "main": "index.js",
   "scripts": {
