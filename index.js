@@ -9,7 +9,6 @@ import {
   ViewPropTypes,
 } from 'react-native';
 import PropTypes from 'prop-types';
-import { Font } from 'expo';
 
 export default class StarWars extends React.Component {
   static propTypes = {
@@ -35,11 +34,7 @@ export default class StarWars extends React.Component {
     this.scrolling = this.scrolling.bind(this);
   }
 
-  async componentDidMount() {
-    await Font.loadAsync({
-      'pathway-gothic-one': require('./PathwayGothicOne-Regular.ttf'),// eslint-disable-line
-    });
-
+  componentDidMount() {
     this.setState({ show: true });
     this.activeInterval = setInterval(this.scrolling, 100);
   }
@@ -126,7 +121,6 @@ const styles = StyleSheet.create({
   textStyle: {
     color: '#feda4a',
     fontSize: 25,
-    fontFamily: 'pathway-gothic-one',
     lineHeight: 30,
     letterSpacing: 6,
     fontWeight: '800',
