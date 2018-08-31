@@ -1,5 +1,7 @@
 # react-native-star-wars
 > A Star Wars Crawl Text Opening made by react native
+> This currently only works on iOS.
+
 ## Installation
 
 ```sh
